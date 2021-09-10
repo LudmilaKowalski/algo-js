@@ -6,7 +6,7 @@ let current = new Number (readlineSync.question("Give me a current number"));
 if ((current >= min) && (current <= max)) {
     console.log("Okay !");
 } else if (min >= max) {
-    console.log("Error !");
+    console.log("no!");
   
   } else {
     console.log("Error !");
