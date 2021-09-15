@@ -8,12 +8,12 @@ const readlineSync = require("readline-sync");
 
 
 function askTvSerie() {
-    return a +b +c 
+    return a + b + c 
 }
 
-const a = readlineSync.question("Whats your favorite series ?");
-const b = readlineSync.question("When she was product ? ");
-const c = readlineSync.question("Who played in this series ?");
-const object = { a: a, b: b, c: c };
+const serie = readlineSync.question("Whats your favorite series ?");
+const date = readlineSync.question("When she was product ? ");
+const actor = readlineSync.question("Who played in this series ?");
+const object = { Name: serie, Production: date, Actor: actor  };
 
-console.log(object.a.b);
+console.log(object);
